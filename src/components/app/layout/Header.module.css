@@ -1,0 +1,64 @@
+.header {
+  background-color: blue;
+  padding: 1rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logoSection {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.logoSection  p{
+    letter-spacing: 2px;
+}
+.logo {
+  height: 40px;
+  width: 40px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 2rem;
+  color: blue;
+}
+.logoSection p {
+  font-weight: 700;
+  color: #fff;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  gap: 2rem;
+}
+.registrationDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.registrationDiv button {
+  background-color: #191919;
+  color: #fff;
+  border: none;
+  padding: 0.7rem;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+.notification {
+  font-size: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #fff;
+}
+.activeLink {
+  background-color: #191919;
+  padding: 0.7rem;
+  border-radius: 5px;
+}

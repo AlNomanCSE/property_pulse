@@ -1,0 +1,42 @@
+.heroSection {
+  background-color: blue;
+  padding: 3rem;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.heroSection h1 {
+  font-size: 3rem;
+  line-height: 1;
+}
+.heroSection p {
+  font-size: 1.2rem;
+  line-height: 1;
+}
+.heroSection select {
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+  outline: none;
+}
+
+.heroSection input,
+.heroSection button {
+  padding: 0.4rem;
+  margin: 1rem;
+  outline: none;
+}
+
+.heroSection button {
+  background-color: rgb(86, 86, 235);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
