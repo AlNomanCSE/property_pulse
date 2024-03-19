@@ -1,0 +1,35 @@
+.notFoundSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+.notFoundSection div {
+  height: 300px;
+  max-width: 600px;
+  margin: auto 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.notFoundSection div > p {
+  color: darkgray;
+}
+
+.notFoundSection div > p:first-child {
+  font-size: 5rem;
+  color: coral;
+}
+.notFoundSection div > h2 {
+  font-size: 2rem;
+}
+.notFoundSection > div > button {
+  padding: 0.5rem 0.7rem;
+  border: none;
+  background-color: #124076;
+  color: #fff;
+  border-radius: 5px;
+}
