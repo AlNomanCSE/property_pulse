@@ -1,7 +1,7 @@
 .card {
   overflow: hidden;
   border-radius: 10px;
-  background-color: beige;
+  background-color: #dcf2f1;
 }
 .cardDetails {
   display: flex;
@@ -43,7 +43,7 @@
 .bottom button {
   padding: 0.6rem 0.8rem;
   border: none;
-  background-color: rgb(52, 52, 238);
+  background-color: #124076;
   border-radius: 5px;
   color: #fff;
   cursor: pointer;

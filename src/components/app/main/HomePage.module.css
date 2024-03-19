@@ -1,0 +1,23 @@
+.section {
+  display: flex;
+  flex-direction: column;
+}
+.section h2 {
+  color: #124076;
+}
+.section_div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  padding: 3rem 5rem;
+  gap: 2rem;
+}
+.section button {
+  align-self: center;
+  width: 20%;
+  padding: 0.5rem;
+  background-color: #124076;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  margin-bottom: 3rem;
+}
