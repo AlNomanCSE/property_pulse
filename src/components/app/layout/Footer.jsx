@@ -10,7 +10,7 @@ const Footer = () => {
           <FaHome />
         </div>
       </Link>
-      &copy; 2024 PropertyPulse . All Right reserved
+      &copy; 2024 BrokerDeal . All Right reserved
     </footer>
   );
 };

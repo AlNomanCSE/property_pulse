@@ -5,6 +5,7 @@ import { FaBed } from "react-icons/fa";
 import { FaBath } from "react-icons/fa";
 import { LuScale3D } from "react-icons/lu";
 import { FaMoneyBill } from "react-icons/fa";
+import Link from "next/link";
 const PropertyCard = ({ property }) => {
   return (
     <div className={styles.card}>
@@ -62,7 +63,9 @@ const PropertyCard = ({ property }) => {
           <p>{property.location.city}</p>
           <p>{property.location.state}</p>
         </div>
-        <button>Details</button>
+        <button>
+          <Link href={`/properties/${property._id}`}>Details</Link>
+        </button>
       </div>
     </div>
   );

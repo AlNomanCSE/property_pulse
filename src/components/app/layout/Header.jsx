@@ -19,7 +19,7 @@ const Header = () => {
             <FaHome />
           </div>
         </Link>
-        <p>PropertyPulse</p>
+        <p>BrokerDeal</p>
       </div>
       <nav className={styles.navbar}>
         <Link href="/" className={path === "/" ? `${styles.activeLink}` : ``}>

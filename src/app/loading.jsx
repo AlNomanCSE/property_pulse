@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import FadeLoader from "react-spinners/FadeLoader";
+import HashLoader from "react-spinners/HashLoader";
 const loading = () => {
   return (
     <div
@@ -12,7 +12,7 @@ const loading = () => {
         alignItems: "center",
       }}
     >
-      <FadeLoader color="#124076" />
+      <HashLoader color="#124076" />
     </div>
   );
 };

@@ -3,16 +3,7 @@ import React from "react";
 import styles from "./HomePage.module.css";
 import Link from "next/link";
 
-async function fetchProperties() {
-  try {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_API_DOMAIN}/properties`);
-    const result = await res.json();
-    if (!res.ok) throw new Error("Failed to Fetch data");
-    return result;
-  } catch (error) {
-    console.log(error);
-  }
-}
+import { fetchProperties } from "@/utils/requests";
 
 const HomePage = async () => {
   const allProperties = await fetchProperties();
