@@ -1,5 +1,4 @@
 import React from "react";
-// import properties from "@/properties.json";
 import PropertyCard from "@/components/PropertyCard";
 import styles from "./page.module.css";
 
